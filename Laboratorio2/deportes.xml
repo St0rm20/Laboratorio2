@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.4" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+    <void property="descripcion">
+     <string>Deporte de equipo</string>
+    </void>
+    <void property="dificultad">
+     <object class="java.lang.Enum" id="Dificultad0" method="valueOf">
+      <class>programacion3.laboratorio1.Clases.enums.Dificultad</class>
+      <string>MEDIO</string>
+     </object>
+    </void>
+    <void property="entrenadores">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="miembros">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="nombre">
+     <string>Futbol</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+    <void property="descripcion">
+     <string>Deporte de raqueta</string>
+    </void>
+    <void property="dificultad">
+     <object class="java.lang.Enum" id="Dificultad1" method="valueOf">
+      <class>programacion3.laboratorio1.Clases.enums.Dificultad</class>
+      <string>ALTO</string>
+     </object>
+    </void>
+    <void property="entrenadores">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="miembros">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="nombre">
+     <string>Tenis</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+    <void property="descripcion">
+     <string>Deporte de equipo</string>
+    </void>
+    <void property="dificultad">
+     <object idref="Dificultad1"/>
+    </void>
+    <void property="entrenadores">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="miembros">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="nombre">
+     <string>Basquet</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+    <void property="descripcion">
+     <string>Deporte de equipo</string>
+    </void>
+    <void property="dificultad">
+     <object idref="Dificultad0"/>
+    </void>
+    <void property="entrenadores">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="miembros">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="nombre">
+     <string>Voley</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+    <void property="descripcion">
+     <string>Deporte de contacto</string>
+    </void>
+    <void property="dificultad">
+     <object idref="Dificultad1"/>
+    </void>
+    <void property="entrenadores">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="miembros">
+     <object class="java.util.ArrayList"/>
+    </void>
+    <void property="nombre">
+     <string>Boxeo</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

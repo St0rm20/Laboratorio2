@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2d3250;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacion3.laboratorio1.Controladores.DeportesPaginaController">
+   <children>
+      <ImageView fitHeight="477.0" fitWidth="822.0" layoutX="-115.0" layoutY="-60.0" opacity="0.31" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/DEPORTESIMAGEN.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="AvatarAdmin" fitHeight="48.0" fitWidth="53.0" layoutX="538.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/COACHIMAGEAVATAR.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tablaDeportes" editable="true" layoutY="256.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="147.0" prefWidth="600.0" style="-fx-background-color: #6666cc; -fx-cursor: hand;" tableMenuButtonVisible="true">
+         <columns>
+            <TableColumn fx:id="colNombre" prefWidth="146.66665136814117" text="Nombre" />
+            <TableColumn fx:id="colDescripcion" prefWidth="146.0000457763672" text="Descripción" />
+            <TableColumn fx:id="colDificultad" prefWidth="307.9999694824219" text="Dificultad" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </TableView>
+      <Text fx:id="consultarPorNombreTextField" fill="WHITE" layoutX="243.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consultar por nombre:" wrappingWidth="138.81510925292957" />
+      <Button fx:id="onConsultar" layoutX="514.0" layoutY="216.0" mnemonicParsing="false" onAction="#onConsultar" style="-fx-background-color: ff9966;" text="Consultar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+      <TextField fx:id="getTextConsultaPorNombre" layoutX="385.0" layoutY="218.0" prefHeight="25.0" prefWidth="123.0" />
+      <Button fx:id="onCerrarSesion" layoutX="419.0" layoutY="13.0" minWidth="33.0" mnemonicParsing="false" onAction="#onCerrarSesion" prefHeight="31.0" prefWidth="107.0" style="-fx-background-color: #ff9966;" text="Cerrar sesión ">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="onAgregar" layoutX="10.0" layoutY="216.0" mnemonicParsing="false" onAction="#onAgregar" style="-fx-background-color: #ff9966;" text="Agregar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="onActualizar" layoutX="79.0" layoutY="216.0" mnemonicParsing="false" onAction="#onActualizar" style="-fx-background-color: #ff9966;" text="Actualizar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="onEliminar" layoutX="166.0" layoutY="216.0" mnemonicParsing="false" onAction="#onEliminar" style="-fx-background-color: #ff9966;" text="Eliminar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <HBox layoutX="16.0" layoutY="110.0" prefHeight="29.0" prefWidth="181.0">
+         <children>
+            <Text fx:id="TextFieldNombre" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre" wrappingWidth="71.85155868530273" />
+            <TextField fx:id="getTextNombre" opacity="0.45" prefHeight="25.0" prefWidth="120.0" style="-fx-background-color: #cccc66;" />
+         </children>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="166.0" prefHeight="25.0" prefWidth="213.0">
+         <children>
+            <Text fx:id="TextFielDesccripcion" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Descripción" wrappingWidth="86.00911712646484" />
+            <TextField fx:id="getTextDescripcion" opacity="0.45" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #cccc66;" />
+         </children>
+      </HBox>
+      <Button fx:id="onAtras" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onAtras" style="-fx-background-color: ff9966;" text="&lt;" />
+      <Text fx:id="TextFieldDeportes" fill="#fff8f8" layoutX="248.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DEPORTES" wrappingWidth="107.33333333333326">
+         <font>
+            <Font name="Forte" size="20.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="CheckDificil" layoutX="279.0" layoutY="187.0" mnemonicParsing="false" onAction="#OnCheckDificil" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #6666cc;" text="DIFICIL" textFill="#9a2323">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="CheckMedio" layoutX="279.0" layoutY="153.0" mnemonicParsing="false" onAction="#OnCheckMedio" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #6666cc;" text="MEDIO" textFill="#9a2323">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="CheckBajo" layoutX="279.0" layoutY="112.0" mnemonicParsing="false" onAction="#OnCheckBajo" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: #6666cc;" text="BAJO">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+      </CheckBox>
+      <Text fx:id="textDificultad" fill="WHITE" layoutX="278.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIFICULTAD">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

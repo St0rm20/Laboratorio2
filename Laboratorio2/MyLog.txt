@@ -1,0 +1,100 @@
+sept 23, 2024 4:41:05 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:41:40 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Categoría no válida
+sept 23, 2024 4:57:10 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:30 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:30 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:30 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:43 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:43 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:43 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 4:57:43 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 23, 2024 5:04:20 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito
+sept 23, 2024 5:04:20 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito
+sept 23, 2024 5:04:20 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito
+sept 23, 2024 5:04:20 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito
+sept 23, 2024 5:04:20 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito
+sept 23, 2024 5:17:22 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito como Juvenil
+sept 23, 2024 5:17:22 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito como Juvenil
+sept 23, 2024 5:17:22 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito como Juvenil
+sept 23, 2024 5:17:22 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito como Juvenil
+sept 23, 2024 5:17:22 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito como Juvenil
+sept 23, 2024 5:17:22 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: Te has unido al club con éxito como Juvenil
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 23, 2024 5:20:25 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: El entrenador ya existe
+sept 24, 2024 10:36:08 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Nombre de usuario o ID incorrectos.
+sept 24, 2024 11:32:12 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No se ha seleccionado ningún tipo.
+sept 24, 2024 11:42:51 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No se ha seleccionado ningún tipo.
+sept 24, 2024 11:59:10 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No se ha ingresado ningún correo electrónico.
+sept 24, 2024 12:12:42 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: Incorrect key
+sept 24, 2024 12:12:49 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have joined the club
+sept 24, 2024 12:12:49 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have joined the club
+sept 24, 2024 12:13:05 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have successfully joined the club as a Youth
+sept 24, 2024 12:13:05 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have successfully joined the club as a Youth
+sept 24, 2024 12:13:05 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have successfully joined the club as a Youth
+sept 24, 2024 12:13:17 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No specialty has been entered
+sept 24, 2024 12:13:17 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No specialty has been entered
+sept 24, 2024 12:13:17 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No specialty has been entered
+sept 24, 2024 12:13:17 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No specialty has been entered
+sept 24, 2024 2:03:45 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No specialty has been entered
+sept 24, 2024 10:18:27 P. M. programacion3.laboratorio1.Clases.Herramientas.Utilities deserializarObjetoXML
+GRAVE: El archivo XML está vacío o mal formado: person.dat
+sept 25, 2024 12:28:53 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogError
+GRAVE: No email has been entered
+sept 25, 2024 12:28:59 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have joined the club
+sept 25, 2024 12:28:59 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have joined the club
+sept 25, 2024 12:30:20 A. M. programacion3.laboratorio1.Clases.Herramientas.Utilities escribirLogInfo
+INFORMACIÓN: You have joined the club

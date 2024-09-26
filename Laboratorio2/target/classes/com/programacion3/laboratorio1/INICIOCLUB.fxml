@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2d3250;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacion3.laboratorio1.Controladores.InicioClubController">
+   <children>
+      <Text fx:id="TextFieldBienvenido" fill="WHITE" fontSmoothingType="LCD" layoutX="2.0" layoutY="59.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="BIENVENIDO AL CLUB!" textAlignment="CENTER" wrappingWidth="274.583984375">
+         <font>
+            <Font name="Franklin Gothic Heavy Italic" size="34.0" />
+         </font>
+      </Text>
+      <Text fx:id="TextFieldEligeQueCatego" fill="WHITE" layoutX="30.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Elige a que categoria perteneces" wrappingWidth="208.779296875">
+         <font>
+            <Font name="Georgia Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="ButtonEntrenador" cache="true" layoutX="32.0" layoutY="170.0" mnemonicParsing="false" onAction="#OnButtonEntrenador" style="-fx-background-color: ff9966;" text="Entrenador" />
+      <Button fx:id="ButtonAdministrador" cache="true" layoutX="34.0" layoutY="260.0" mnemonicParsing="false" onAction="#OnButtonAdministrador" style="-fx-background-color: ff9966;" text="Administrador" />
+      <Button fx:id="ButtonDeportista" cache="true" layoutX="34.0" layoutY="216.0" mnemonicParsing="false" onAction="#OnButtonDeportista" style="-fx-background-color: ff9966;" text="Deportista" />
+      <Button fx:id="ButtonUnirte" cache="true" layoutX="201.0" layoutY="315.0" mnemonicParsing="false" onAction="#OnButtonUnirte" style="-fx-background-color: ff9966;" text="Unirte" />
+
+      <Text fx:id="TextFieldNoHacesParte" fill="WHITE" layoutX="17.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿No haces parte de nuestra comunidad?" wrappingWidth="175.44598388671875">
+         <font>
+            <Font name="Georgia Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="400.0" fitWidth="458.0" layoutX="277.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Imagenes/CLUBDEPORTE.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="botonCambiarIdioma" layoutX="76.0" layoutY="354.0" mnemonicParsing="false" onAction="#onCambiarIdioma" style="-fx-background-color: #ffb9b9;" text="Cambiar Idioma" />
+   </children>
+</AnchorPane>

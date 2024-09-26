@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.4" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.SesionEntrenamiento" id="SesionEntrenamiento0">
+    <void property="deporte">
+     <object class="programacion3.laboratorio1.Clases.Club.Deporte" id="Deporte0">
+      <void property="descripcion">
+       <string>Deporte de equipo</string>
+      </void>
+      <void property="dificultad">
+       <object class="java.lang.Enum" id="Dificultad0" method="valueOf">
+        <class>programacion3.laboratorio1.Clases.enums.Dificultad</class>
+        <string>MEDIO</string>
+       </object>
+      </void>
+      <void property="entrenadores">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="miembros">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="nombre">
+       <string>Futbol</string>
+      </void>
+     </object>
+    </void>
+    <void property="duracion">
+     <int>2</int>
+    </void>
+    <void property="entrenador">
+     <object class="programacion3.laboratorio1.Clases.Personas.Entrenador" id="Entrenador0">
+      <void property="ID">
+       <string>1234</string>
+      </void>
+      <void property="nombre">
+       <string>Cristiano</string>
+      </void>
+      <void property="sesiones">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object idref="SesionEntrenamiento0"/>
+        </void>
+        <void method="add">
+         <object class="programacion3.laboratorio1.Clases.Club.SesionEntrenamiento" id="SesionEntrenamiento1">
+          <void property="deporte">
+           <object idref="Deporte0"/>
+          </void>
+          <void property="duracion">
+           <int>3</int>
+          </void>
+          <void property="entrenador">
+           <object idref="Entrenador0"/>
+          </void>
+          <void property="estado">
+           <object class="java.lang.Enum" id="Estado0" method="valueOf">
+            <class>programacion3.laboratorio1.Clases.enums.Estado</class>
+            <string>PROGRAMADA</string>
+           </object>
+          </void>
+          <void property="fecha">
+           <object class="java.time.LocalDate" method="of">
+            <int>2024</int>
+            <int>10</int>
+            <int>3</int>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="programacion3.laboratorio1.Clases.Club.SesionEntrenamiento" id="SesionEntrenamiento2">
+          <void property="deporte">
+           <object idref="Deporte0"/>
+          </void>
+          <void property="duracion">
+           <int>4</int>
+          </void>
+          <void property="entrenador">
+           <object idref="Entrenador0"/>
+          </void>
+          <void property="estado">
+           <object idref="Estado0"/>
+          </void>
+          <void property="fecha">
+           <object class="java.time.LocalDate" method="of">
+            <int>2024</int>
+            <int>10</int>
+            <int>4</int>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="programacion3.laboratorio1.Clases.Club.SesionEntrenamiento" id="SesionEntrenamiento3">
+          <void property="deporte">
+           <object idref="Deporte0"/>
+          </void>
+          <void property="duracion">
+           <int>1</int>
+          </void>
+          <void property="entrenador">
+           <object idref="Entrenador0"/>
+          </void>
+          <void property="estado">
+           <object idref="Estado0"/>
+          </void>
+          <void property="fecha">
+           <object class="java.time.LocalDate" method="of">
+            <int>2024</int>
+            <int>10</int>
+            <int>5</int>
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="estado">
+     <object idref="Estado0"/>
+    </void>
+    <void property="fecha">
+     <object class="java.time.LocalDate" method="of">
+      <int>2024</int>
+      <int>10</int>
+      <int>2</int>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="SesionEntrenamiento1"/>
+  </void>
+  <void method="add">
+   <object idref="SesionEntrenamiento2"/>
+  </void>
+  <void method="add">
+   <object idref="SesionEntrenamiento3"/>
+  </void>
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.SesionEntrenamiento" id="SesionEntrenamiento4">
+    <void property="deporte">
+     <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+      <void property="descripcion">
+       <string>Deporte de equipo</string>
+      </void>
+      <void property="dificultad">
+       <object class="java.lang.Enum" method="valueOf">
+        <class>programacion3.laboratorio1.Clases.enums.Dificultad</class>
+        <string>ALTO</string>
+       </object>
+      </void>
+      <void property="entrenadores">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="miembros">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="nombre">
+       <string>Basquet</string>
+      </void>
+     </object>
+    </void>
+    <void property="duracion">
+     <int>1</int>
+    </void>
+    <void property="entrenador">
+     <object class="programacion3.laboratorio1.Clases.Personas.Entrenador">
+      <void property="ID">
+       <string>1238</string>
+      </void>
+      <void property="nombre">
+       <string>Curry</string>
+      </void>
+      <void property="sesiones">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object idref="SesionEntrenamiento4"/>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="estado">
+     <object idref="Estado0"/>
+    </void>
+    <void property="fecha">
+     <object class="java.time.LocalDate" method="of">
+      <int>2024</int>
+      <int>9</int>
+      <int>27</int>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="programacion3.laboratorio1.Clases.Club.SesionEntrenamiento" id="SesionEntrenamiento5">
+    <void property="deporte">
+     <object class="programacion3.laboratorio1.Clases.Club.Deporte">
+      <void property="descripcion">
+       <string>Deporte de equipo</string>
+      </void>
+      <void property="dificultad">
+       <object idref="Dificultad0"/>
+      </void>
+      <void property="entrenadores">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="miembros">
+       <object class="java.util.ArrayList"/>
+      </void>
+      <void property="nombre">
+       <string>Voley</string>
+      </void>
+     </object>
+    </void>
+    <void property="duracion">
+     <int>4</int>
+    </void>
+    <void property="entrenador">
+     <object class="programacion3.laboratorio1.Clases.Personas.Entrenador">
+      <void property="ID">
+       <string>1237</string>
+      </void>
+      <void property="nombre">
+       <string>Brenda</string>
+      </void>
+      <void property="sesiones">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object idref="SesionEntrenamiento5"/>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="estado">
+     <object idref="Estado0"/>
+    </void>
+    <void property="fecha">
+     <object class="java.time.LocalDate" method="of">
+      <int>2024</int>
+      <int>10</int>
+      <int>13</int>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

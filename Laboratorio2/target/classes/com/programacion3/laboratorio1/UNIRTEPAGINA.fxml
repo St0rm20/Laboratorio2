@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2d3250;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="programacion3.laboratorio1.Controladores.UnirtePaginaController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.42" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Imagenes/CLUBDEPORTE.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="getNombre" layoutX="229.0" layoutY="152.0" onDragDetected="#OnNombre" opacity="0.53" style="-fx-background-color: #cccccc;" />
+      <Text fx:id="TextFieldNombre" fill="WHITE" layoutX="149.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOMBRE">
+         <font>
+            <Font name="Agency FB Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="TextFieldID" fill="WHITE" layoutX="185.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font name="Agency FB Bold" size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="ButtonUnirte" layoutX="229.0" layoutY="272.0" mnemonicParsing="false" onAction="#OnButtonUnirte" opacity="0.9" prefHeight="31.0" prefWidth="142.0" style="-fx-background-color: #ff9933;" text="UNIRTE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="ButtonAtras" layoutX="14.0" layoutY="14.0" minWidth="27.0" mnemonicParsing="false" onAction="#OnButtonAtras" opacity="0.8" prefHeight="31.0" prefWidth="27.0" style="-fx-background-color: #ff9933;" text="&lt;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <PasswordField fx:id="getTextID" layoutX="229.0" layoutY="186.0" onAction="#OnTextID" opacity="0.55" prefHeight="27.0" prefWidth="142.0" style="-fx-background-color: #cccccc;" />
+      <ImageView fitHeight="61.0" fitWidth="111.0" layoutX="259.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/LogoClub.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="ChoiceBoxTipo" layoutX="225.0" layoutY="232.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
